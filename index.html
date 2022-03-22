@@ -6,8 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive-Blog</title>
+
+
     <!-- custom styles -->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Owl-carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/adc3fa4b1f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -18,38 +27,90 @@
             <div class="nav-brand">
                 <a href="#" class="text-gray">Responsive blog</a>
             </div>
-        </div>
-        <div>
-            <ul class="nav-items">
-                <li class="nav-link">
-                    <a href="#">Home</a>
-                </li>
-                <li class="nav-link">
-                    <a href="#">Category</a>
-                </li>
-                <li class="nav-link">
-                    <a href="#">Archive</a>
-                </li>
-                <li class="nav-link">
-                    <a href="#">Pages</a>
-                </li>
-                <li class="nav-link">
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Category</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Archive</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Pages</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
             <div class="social text-gray">
-                <a href="#">F</a>
-                <a href="#">I</a>
-                <a href="#">T</a>
-                <a href="#">G</a>
+                <a href="https://github.com/wolf-ed" target="_blank"><i class="fa-brands fa-github"></i></a>
 
             </div>
         </div>
+
 
     </nav>
     <!---------------- Navigation------------------>
 
 
+    <!---------------- Main Site Section ---------------->
+
+    <main>
+
+
+        <!---------------- Site title ---------------->
+
+        <!---------------- Site title ---------------->
+
+        <section class="site-title">
+            <div class="site-background">
+                <h3>Tours and travel</h3>
+                <h1>Amazing place</h1>
+                <button class="btn">Explore</button>
+            </div>
+        </section>
+
+        <!------------ Blog-carousel ------------->
+        <section>
+            <div class="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content">
+                            <img src="./assets/Blog-post/post-1.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>London fashion week</h3>
+                                <button class="btn btn-blog">Fashion</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------ Blog-carousel ------------->
+
+
+    </main>
+
+    <!---------------- Main Site Section ---------------->
+
+
+    <!-- Jquery library -->
+    <script src="./script/jquery3.6.0.min.js"></script>
+
+    <!-- Owl-carousel -->
+    <script src="./script/owl.carousel.min.js"></script>
 
     <!-- custom JavaScript file -->
     <script src="./script/main-script.js"></script>
