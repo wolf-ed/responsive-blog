@@ -68,7 +68,15 @@ button.btn {
   cursor: pointer;
 }
 
-/*--------- global classes --------------*/
+span {
+  font-family: var(--Abel);
+}
+
+.container {
+  margin: 0 5vw;
+}
+
+/*----x----- global classes --------x------*/
 
 /* ------------ navbar ------------------ */
 
@@ -148,7 +156,7 @@ button.btn {
   color: #a1c4cf;
 }
 
-/* ------------ navbar ------------------ */
+/* ------x------ navbar ----------x-------- */
 
 /* ------------ Main content ------------------ */
 
@@ -184,13 +192,48 @@ main .site-title .btn:hover {
   color: var(--white);
 }
 
-/* ------------ Site title ------------------ */
+/* ------x------ Site title -----------x------- */
 
 /* ------------ Blog Carousel ------------------ */
+main .blog {
+  background: url(../assets/Abract01.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+  width: 100%;
+  background-size: 65%;
+}
 
-/* ------------ Blog Carousel ------------------ */
+main .blog .blog-post {
+  padding-top: 6rem;
+}
 
-/* ------------ Main content ------------------ */
+main .blog-post .blog-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: 3rem 2rem;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .blog-content .blog-title {
+  padding: 2rem 0;
+}
+
+main .blog-content .btn-blog {
+  padding: 0.7rem;
+  background: var(--sky);
+  margin: 0.5rem;
+}
+
+main .blog-content span {
+  display: block;
+}
+
+/* -------x----- Blog Carousel ------------x------ */
+
+/* -------x----- Main content ----------x-------- */
 
 /* Viewport less than or equal to 750px */
 
